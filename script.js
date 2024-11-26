@@ -17,11 +17,11 @@ function mostrardados (dados) {
         resultado.innerHTML = `Não foi possivel localizar o endereço`
     }else {
         resultado.innerHTML = `
-        <p>Endereço: ${dados.endereço}</p>
+        <p>Endereço: ${dados.localidade}</p>
         <p>Logradouro: ${dados.logradouro}</p>
         <p>Complemento: ${dados.complemento}</p>
         <p>Estado: ${dados.estado}</p>
-        <p>Região: ${dados.região}</p>
+        <p>Região: ${dados.regiao}</p>
         <p>DDD: ${dados.ddd}</p>
         `
     }
